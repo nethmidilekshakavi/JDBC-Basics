@@ -14,6 +14,10 @@ import java.util.ArrayList;
 
 
 public class CustomerModel {
+    public static boolean updateCustomer(){
+    return updateCustomer();
+    }
+
     public static boolean deleteCustomer(int CID) throws SQLException {
         try{
         Connection connection= dbConnection.getInstance().getConnection();
